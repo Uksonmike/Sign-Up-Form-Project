@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(29, 29, 29);
+}
+
+main.hero{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    height: 100vh;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.hero .hero-image{
+    background-image: url(/background-image.jpg);
+    background-position: center;
+}
+.hero-logo{
+    display: flex;
+    height: 5rem;
+    background-color: rgba(0, 0, 0, 0.452);
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(10rem);
+    padding: 10px 0;
+}
+
+.hero-logo img{
+    height: 100%;
+}
+
+.hero-login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(237, 238, 238);
+}
+.form-text{
+    padding: 30px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.main-text{
+    margin-bottom: 1rem;
+}
+
+.hero-login .form-input{
+    padding: 30px;
+   display: flex;
+   background-color: #fff;
+   margin-bottom: 40px;
+   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.301);
+}
+
+.form-input label {
+    font-size: 12px;
+    color: rgba(56, 56, 56, 0.644);
+}
+
+.form-1{
+    margin-right: 30px;
+}
+
+.form-input input{
+    background-color: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.507);
+    border-radius: 5px;
+    padding: 2px 5px;
+    height: 20px;
+    width: 160px;
+    color: rgb(56, 56, 56);
+}
+
+.form-input input:focus{
+    outline: none;
+    border: 2px solid rgba(21, 64, 255, 0.712);
+}
+
+.submit{
+    margin-left: 30px;
+}
+.submit button{
+    padding: 5px 25px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(77, 94, 69);
+    color: #fff;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(77, 94, 69);
+    font-weight: bold;
+}
+div.password{
+    position: relative;
+}
+
+.error{
+    display: none;
+    font-size: 10px;
+    position: absolute;
+    top: 47px;
+    left: 0;
+    color: red;
+}
