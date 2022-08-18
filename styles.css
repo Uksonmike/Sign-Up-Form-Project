@@ -20,7 +20,7 @@ main.hero{
 }
 
 .hero .hero-image{
-    background-image: url(/background-image.jpg);
+    background-image: url(https://raw.githubusercontent.com/Uksonmike/Sign-Up-Form-Project/main/background-image.jpg);
     background-position: center;
 }
 .hero-logo{
